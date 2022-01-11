@@ -1,0 +1,196 @@
+{
+  "auth":{
+    "login":"Login",
+    "signup":"Signup",
+    "login-error-title":"Error",
+    "login-error":"No users information. Create an account to manage your daily transactions.",
+    "signup-error":"Account already exists with the same email address",
+    "signup-success":"OTP code has been sent to verify your account",
+    "otp-title":"Send OTP to confirm your account",
+    "login-title":"Login in to your account",
+    "signup-title":"Signup to create an account",
+    "email":"Email Address",
+    "email-invalid":"Invalid Email address",
+    "email-required":"Email address is required",
+    "password":"Password",
+    "password-required":"Password is required",
+    "password-min-length":"Password must have minimum 6 characters",
+    "confirm-pass":"Confirm password",
+    "confirm-required":"Confirm password is required",
+    "confirm-min-length":"Confirm password must have minimum 6 characters",
+    "confirm-mismatched":"Passwords mismatched",
+    "login-footer-title": "Don't you have an account?",
+    "signup-footer-title":"Already have an account?",
+    "send-otp":"Send OTP",
+    "verify-otp":"Verify OTP",
+    "enter-otp":"Enter OTP",
+    "otp-code":"OTP Code",
+    "otp-required":"OTP Code is required",
+    "otp-length":"OTP Code must have 5 characters",
+    "otp-digit":"OTP Code must contain only digits",
+    "resend-otp":"Resend OTP",
+    "resend-otp-title":"Don't receive an OTP code?"
+  },
+  "sideNav": {
+    "dashboard":"Dashboard",
+    "wallets":"Wallets",
+    "statistic":"Statistic",
+    "account":"Account",
+    "logout":"Logout"
+  },
+  "bottomNav":{
+    "dashboard":"Dashboard",
+    "transactions":"Transactions",
+    "statistic":"Statistic",
+    "account":"Account"
+  },
+  "actions":{
+    "filter-options":{
+      "all":"All",
+      "income":"Income",
+      "expense":"Expense"
+    },
+    "menu-options":{
+      "edit":"Edit",
+      "delete":"Delete",
+      "viewmore":"View More",
+      "view-stat":"View Statistic"
+    },
+    "dismiss":"Dismiss",
+    "submit":"Submit"
+  },
+  "months" : {
+    "1": "Janauary",
+    "2": "February",
+    "3": "March",
+    "4": "April",
+    "5": "May",
+    "6": "June",
+    "7": "July",
+    "8": "August",
+    "9": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December"
+  },
+  "logout":{
+    "title":"Logout",
+    "desc":"Are you sure you want to logout the application?"
+  },
+  "expired":{
+    "title":"Session Expired",
+    "desc":"Your application session has been expired. Please login again to access the application"
+  },
+  "dashboard": {
+    "title":"Dashboard",
+    "monthly":"Monthly Statistic",
+    "yearly":"Annual Statistic",
+    "income":"Income",
+    "expense":"Expense",
+    "balance":"Balance",
+    "month-title":"Annual Monthly Statistics",
+    "transactions":"Transactions",
+    "add":"Add",
+    "filter":"Filter",
+    "transaction-add":{
+      "title":"New Transaction",
+      "amount":"Amount",
+      "date":"Date",
+      "select-wallet":"Select Wallet",
+      "select-category":"Select Category"
+    },
+    "transaction-edit": {
+      "title":"Edit Transaction"
+    },
+    "transaction-detail":{
+      "status":"Status",
+      "category":"Category"
+    },
+    "transaction-delete":{
+      "title":"Delete Transaction",
+      "desc":"Are you sure you want to delete the current transaction?"
+    },
+    "amount":"Amount",
+    "date":"Date",
+    "select-wallet":"Select Wallet",
+    "select-category":"Select Category"
+  },
+  "wallets": {
+    "title":"Wallets",
+    "add":"Add",
+    "statistic":"Statistic",
+    "income":"Income",
+    "expense":"Expense",
+    "balance":"Balance",
+    "difference":"Difference",
+    "name":"Name",
+    "amount":"Amount",
+    "wallet-add":{
+      "title":"Add Wallet"
+    },
+    "wallet-edit":{
+      "title":"Edit Wallet"
+    },
+    "wallet-delete":{
+      "title":"Delete Wallet",
+      "desc":"Are you sure you want to delete the current wallet?"
+    },
+    "select-color":"Select Color",
+    "select-icon":"Select Icon",
+    "initial-balance":"Initial Amount",
+    "remain":"Remaining"
+  },
+  "statistic":{
+    "title":"Statistic",
+    "income":"Income",
+    "expense":"Expense",
+    "balance":"Balance",
+    "categories":"Categories",
+    "add":"Add",
+    "filter":"Filter",
+    "name":"Name",
+    "category-add":{
+      "title":"Add Category"
+    },
+    "category-edit":{
+      "title":"Edit Category"
+    },
+    "category-delete":{
+      "title":"Delete Category",
+      "desc":"Are you sure you want to delete the current category?"
+    },
+    "select-color":"Select Color",
+    "select-icon":"Select Icon",
+    "type":"Type",
+    "total":"Total",
+    "amount":"Amount"
+  },
+  "account":{
+    "title":"Acccount",
+    "avatar":"Avatar",
+    "email":"Email Address",
+    "name":"Name",
+    "bio":"Bio",
+    "bio-placeholder":"Type here..",
+    "reset":"Reset",
+    "update-now":"Update Now",
+    "update-password":"Update Password",
+    "update-profile":"Update Profile",
+    "password":"Current Password",
+    "new-password":"New password",
+    "confirm-password":"Confirm password",
+    "password-error":"Current Password is required",
+    "new-password-error":"New password is required",
+    "confirm-password-error":"Confirm password is required",
+    "settings":"Settings",
+    "theme":"Theme",
+    "lang":"Language",
+    "en":"English",
+    "mm":"Myanmar",
+    "utility":"Utility",
+    "categories":"Categories",
+    "wallets":"Wallets",
+    "sm-mm":"Mm",
+    "sm-en":"En"
+  }
+}
