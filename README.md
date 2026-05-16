@@ -2,6 +2,8 @@
 
 A full-stack personal budget tracking web application with multi-wallet support, income/expense analytics, category breakdowns, and OTP-based email authentication. Built with React and Material UI, with a fully responsive layout that switches between a sidebar-driven desktop view and a bottom-navigation mobile view.
 
+**Live Demo:** [budgety-adventure-frontend.vercel.app](https://budgety-adventure-frontend.vercel.app)
+
 > **Backend:** [budgety-adventure-api](https://github.com/MrPhyaeSoneThwim/budgety-adventure-api) (Node.js · Express · MongoDB Atlas)
 
 ---
