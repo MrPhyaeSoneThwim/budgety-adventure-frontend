@@ -41,8 +41,8 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -64,7 +64,11 @@
       "last 1 safari version"
     ]
   },
+  "overrides": {
+    "postcss-safe-parser": "^5.0.2"
+  },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "prop-types": "^15.8.0"
   }
 }

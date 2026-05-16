@@ -29,17 +29,17 @@ function App() {
       const currentTime = Math.floor(new Date().getTime() / 1000) + 5;
       const expiredIn = (decode.exp - currentTime) * 1000;
 
-      if (expiredIn > 0) {
+      if (expiredIn <= 0) {
+        dispatch(setExpired());
+      } else if (expiredIn <= 2147483647) {
+        // setTimeout overflows beyond ~24.8 days; only schedule for short-lived tokens
         expiredTimeout = setTimeout(() => {
           dispatch(setExpired());
         }, expiredIn);
-      } else {
-        dispatch(setExpired());
       }
     } else {
       dispatch(logout());
     }
-    // clear all timing function
     return () => {
       clearTimeout(expiredTimeout);
     };
